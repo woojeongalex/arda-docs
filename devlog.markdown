@@ -9,7 +9,7 @@ permalink: /devlog/
 
 ## 완료 작업 타임라인
 
-[팀 칸반](/kanban/)에서 `done` 처리된 카드와 개발기 포스트가 날짜 기준으로 자동 집계됩니다 — 카드는 클릭하면 상세 요약이 펼쳐지고, 포스트는 본문으로 이동합니다.
+[팀 칸반]({{ site.baseurl }}/kanban/)에서 `done` 처리된 카드와 개발기 포스트가 날짜 기준으로 자동 집계됩니다 — 카드는 클릭하면 상세 요약이 펼쳐지고, 포스트는 본문으로 이동합니다.
 
 <style>
 .dl-day { display: flex; align-items: center; gap: 10px; margin: 1.8rem 0 0.7rem; font-size: 0.98rem; font-weight: 800; color: #eceff4; }

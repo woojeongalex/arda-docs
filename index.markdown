@@ -16,8 +16,32 @@ permalink: /
 최종 갱신 2026-09-28
 {: .fs-3 }
 
-[목차 보기](/toc/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[GitHub](https://github.com/Seuk-Team/jekyll){: .btn .fs-5 .mb-4 .mb-md-0 }
+[목차 보기]({{ site.baseurl }}/toc/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[내 코드 포크](https://github.com/woojeongalex/Arda){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[돌아가는 서비스](https://seuk.suvisdev.cloud){: .btn .fs-5 .mb-4 .mb-md-0 }
+
+---
+
+> **이 사이트는 팀 문서의 포크입니다.**
+> 원본은 [`Seuk-Team/jekyll`](https://github.com/Seuk-Team/jekyll) 이고
+> [ats.suvisdev.cloud](https://ats.suvisdev.cloud) 에서 볼 수 있습니다.
+> 본문은 팀이 함께 쓴 것이고, 여기에는 **제가 맡은 범위를 밝힌 아래 절만** 더했습니다.
+
+## 내가 맡은 부분 — woojeongalex (백엔드)
+{: .no_toc }
+
+5인 팀에서 **백엔드**(`backend/`, agent 폴더 제외)를 맡았고, 진행 중
+**인증(A1~A3)과 단계 전환 로직(D3)** 을 이관받았습니다 — [04-team](https://github.com/Seuk-Team/Arda/blob/main/docs/00_overview/04-team.md) 기준.
+
+| | |
+|:--|:--|
+| 커밋 | **301 / 전체 1,095 · 2위** (2026-08-24 ~ 09-18) |
+| 주로 만진 곳 | `backend/app/api` · `schemas` · `alembic/versions` · `ai/lie-detection` · API 문서·ERD |
+| 쿼리 성능 | 10만 건에서 목록 정렬 **26.2 → 0.25 ms** · 이름 검색 **100.8 → 7.7 ms** |
+
+커밋 수는 [기여자 그래프](https://github.com/Seuk-Team/Arda/graphs/contributors)에서 로그인 없이 같은 값이 보입니다.
+[내 개인 프로젝트 보기](https://woojeongalex.github.io/woojeongalex.cloud)
+{: .fs-3 }
 
 ---
 

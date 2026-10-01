@@ -28,7 +28,7 @@ permalink: /guidelines/
 
 **ADR 기반 의사결정** — 기술·범위·윤리 결정 **36건**을 ADR(`docs/03_decision/`)로 남겼다. "안 한 것"에도 ADR이 있다 — Kubernetes 제외(0001), 실시간 공동편집 제외(0005), SQS 워커 폐기(0036). **개정은 원문을 지우지 않고 절을 덧붙인다.** 오너가 개정 ADR을 쓰면 그것으로 확정이며 "팀 확정 대기" 상태를 두지 않는다. 대표 개정 사례 — 표정분석 제외(0002) → 표정·음성 보조 신호 도입(ADR-0029, 단 **점수 재료로 쓰지 않음**) · AI는 추천까지(0003) → 서류 단계 자동 판정, 최종 합불만 사람(0034) · AWS 8종 → 3종(0031·0036) · 헥사고날 부분 적용 Bounded Context 4개(0035) · 실시간 전사 OpenAI API(0038).
 
-주차별 실행 계획은 [개발 일정](/schedule/) 참조.
+주차별 실행 계획은 [개발 일정]({{ site.baseurl }}/schedule/) 참조.
 
 ### 협업 운영 규칙
 
@@ -39,7 +39,7 @@ permalink: /guidelines/
 - **깨진 `main`은 묻지 않고 즉시 고친다** — fix-forward 또는 revert. CI 빨간불은 다른 작업보다 우선.
 - **되돌릴 수 있는 일은 그냥 한다** — 실험·프로토타입은 묻지 않고 결과만 공유. 물어야 할 것은 되돌리기 어려운 것뿐(스키마, 외부 서비스 계약, 마일스톤).
 - **사후 공지** (팀 채널 한 줄) — 스키마 · API · 공용 문서(`docs/00_overview/` · `CLAUDE.md` · `.github/`) · 남의 도메인 폴더를 고쳤을 때. 큰 변경이면 직접 고치지 말고 이슈로 오너에게.
-- **진행 상태는 팀 칸반**([/kanban/](/kanban/)) · **받은 피드백은 피드백 트래커**([/feedback/](/feedback/))에 기록한다. 로드맵은 범위·큐 순서, 칸반은 현재 상태 — 이중 관리하지 않는다.
+- **진행 상태는 팀 칸반**([/kanban/]({{ site.baseurl }}/kanban/)) · **받은 피드백은 피드백 트래커**([/feedback/]({{ site.baseurl }}/feedback/))에 기록한다. 로드맵은 범위·큐 순서, 칸반은 현재 상태 — 이중 관리하지 않는다.
 - **시크릿은 `.env`(git 제외)에만** — 키 이름은 `.env.example`에 반영해 팀원이 알 수 있게 한다.
 
 ---
@@ -78,7 +78,7 @@ permalink: /guidelines/
 
 | 구분 | 산출물 | 위치 · 비고 |
 |------|--------|------|
-| 설계 | 시스템 아키텍처 다이어그램 | [/about/](/about/) architecture.svg |
+| 설계 | 시스템 아키텍처 다이어그램 | [/about/]({{ site.baseurl }}/about/) architecture.svg |
 | 설계 | ERD — 테이블 28개 (v2.8) · alembic 리비전 26개 | `docs/00_overview/01-erd.md` · erd.png |
 | 설계 | API 명세 — 라우트 107개 | Swagger `/docs` 자동 생성 · `02-api.md` 목록 |
 | 결정 | ADR 36편 | `docs/03_decision/` |

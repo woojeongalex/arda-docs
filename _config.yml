@@ -1,9 +1,10 @@
 title: Eval-ATS
 description: >-
-  AI 기반 채용 프로세스 자동화 및 지원자 통합 관리 플랫폼 — 팀 SEUK
+  AI 기반 채용 프로세스 자동화 및 지원자 통합 관리 플랫폼 — 팀 SEUK ·
+  woojeongalex(백엔드) 개인 사본
 baseurl: ""
-url: "https://ats.suvisdev.cloud"
-github_username: Seuk-Team
+url: "https://woojeongalex.github.io"
+github_username: woojeongalex
 
 theme: just-the-docs
 plugins:
@@ -12,10 +13,12 @@ plugins:
 color_scheme: dark
 
 aux_links:
-  "GitHub":
-    - "https://github.com/Seuk-Team/jekyll"
-  "개인 프로젝트":
-    - "https://jk.suvisdev.cloud"
+  "돌아가는 서비스":
+    - "https://seuk.suvisdev.cloud"
+  "팀 원본 문서":
+    - "https://ats.suvisdev.cloud"
+  "내 프로젝트":
+    - "https://woojeongalex.cloud"
 aux_links_new_tab: true
 
 heading_anchors: true
