@@ -1,0 +1,32 @@
+// IUEM 배색 — 흑백.
+//
+// 색을 쓰지 않는다. 레퍼런스에서 유일한 '색'은 **흐린 회색** 하나이고, 그것도
+// 강조가 아니라 **힘을 빼는 용도**였다("YOUR ONLY LIMIT IS *OBSOLETE*").
+// 그래서 여기서도 강조는 색이 아니라 **크기·굵기·여백**이 맡고, 회색은
+// 뒤로 물러나야 할 것에만 쓴다.
+
+$color-scheme: dark;
+
+// 바탕 — 순흑. 회색빛 검정으로 두면 이 느낌이 흐려진다.
+$body-background-color: #000000;
+$sidebar-color: #000000;
+$search-background-color: #0a0a0a;
+$table-background-color: #000000;
+$code-background-color: #0a0a0a;
+$base-button-color: #141414;
+$feedback-color: #0a0a0a;
+
+// 글자
+$body-text-color: #b4b4b4; // 본문은 한 단계 낮춰 제목이 치고 나오게
+$body-heading-color: #ffffff;
+$search-result-preview-color: #6e6e6e;
+$nav-child-link-color: #8a8a8a;
+
+// 링크도 흰색이다. 구분은 색이 아니라 밑줄이 한다(custom.scss).
+$link-color: #ffffff;
+$btn-primary-color: #ffffff;
+
+// 선은 보일 듯 말 듯. 상자를 그리지 않고 선 하나로 나눈다.
+$border-color: #222222;
+
+@import "./vendor/accessible-pygments/github-dark";
